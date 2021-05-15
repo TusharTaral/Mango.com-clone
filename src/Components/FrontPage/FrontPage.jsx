@@ -12,7 +12,7 @@ const FrontPage = () => {
                  <button style={{marginTop:"50px"}}>
                      <img className={styled.img1} src="https://image.flaticon.com/icons/png/128/3033/3033144.png" alt=""/>
                      India</button>
-                 <button>Enter</button>
+                 <button>ENTER</button>
             </div>
             
         </div>
