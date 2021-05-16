@@ -1,0 +1,183 @@
+.top {
+  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/he/mayo/he_landing_newnow_1005_v5.jpg");
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.top:hover {
+  cursor: pointer;
+}
+.top > h1 {
+  color: white;
+  font-size: 55px;
+  padding-top: 10%;
+}
+.top > p {
+  color: white;
+}
+.top > button {
+  margin-top: 5%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+}
+.top > button:hover {
+  background-color: gray;
+}
+.leisure {
+  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/he/marzo/he_leisure_220321.jpg");
+  width: 30%;
+  height: 500px;
+  margin-right: 3px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.leisure > h1 {
+  color: white;
+  font-size: 35px;
+  padding-top: 80%;
+}
+.leisure > button {
+  margin-top: 5%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  background: unset;
+  color: white;
+}
+.linen {
+  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/he/abril/he_linen_0421.jpg");
+  width: 70%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+.linen > h1 {
+  color: white;
+  font-size: 35px;
+  margin-left: 7%;
+  padding-top: 33%;
+}
+.linen > button {
+  height: 40px;
+  padding: 10px;
+  margin-left: 7%;
+  border: none;
+  background: unset;
+  color: white;
+}
+.linen:hover,
+.leisure:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}
+.planet {
+  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/mm/abril/mm_landing_sostenibilidad_1904.jpg");
+  width: 66.5%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+.planet > h1 {
+  color: white;
+  font-size: 55px;
+  margin-left: 7%;
+  padding-top: 3%;
+}
+.planet > p {
+  color: white;
+  font-size: 25px;
+  margin-left: 7%;
+}
+.planet > button {
+  height: 40px;
+  padding: 10px;
+  margin-left: 7%;
+  margin-top: 8%;
+  border: none;
+  background: unset;
+  color: white;
+}
+.planet:hover,
+.planet1:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}
+.planet1 {
+  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/he/marzo/he_performance_0321_v2.jpg");
+  width: 33%;
+  height: 500px;
+  margin-left: 3px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.planet1 > h1 {
+  color: white;
+  font-size: 35px;
+  padding-top: 80%;
+}
+.planet1 > button {
+  margin-top: 5%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  background: unset;
+  color: white;
+}
+.shirt {
+  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/he/abril/he_sobrecamisas_2304.jpg");
+  width: 33%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+.shirt1 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/he/abril/he_camisas_2304.jpg?imwidth=674&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.shirt2 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/he/abril/he_pantalones_2304.jpg?imwidth=674&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.shirt:hover,
+.shirt1:hover,
+.shirt2:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}
+.shirt2 > h1,
+.shirt1 > h1,
+.shirt > h1 {
+  color: white;
+  font-size: 35px;
+  padding-top: 80%;
+  margin-left: 8%;
+  font-weight: 500;
+}
+.shirt2 > button,
+.shirt1 > button,
+.shirt > button {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  background: unset;
+  color: white;
+  margin-left: 7%;
+}
