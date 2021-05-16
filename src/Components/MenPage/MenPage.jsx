@@ -54,6 +54,20 @@ export default function MenPage() {
           <button>Discover more</button>
         </div>
       </div>
+      <div style={{ textAlign: "center" }}>
+        <h1 style={{ margin: "50px ", fontWeight: "400" }}>Our Other Lines</h1>
+      </div>
+      <div style={{ display: "flex", margin: "3px 0px" }}>
+        <div className={styled.otherline}>
+          <button className={styled.btn1}>Women</button>
+        </div>
+        <div className={styled.otherline1}>
+          <button className={styled.btn1}>Kids</button>
+        </div>
+        <div className={styled.otherline2}>
+          <button className={styled.btn1}>Plus size</button>
+        </div>
+      </div>
     </div>
   );
 }
