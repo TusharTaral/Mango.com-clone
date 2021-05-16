@@ -1,0 +1,103 @@
+.div
+{
+    text-align: center;
+    margin-top: 30px;
+}
+.div>p
+{
+ font-size: 14px;
+ margin-bottom: 20px;
+}
+.div>input
+{
+    width: 300px;
+    height: 50px; 
+    font-size: 12px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;;
+    border-bottom: 1px solid black;
+}
+.div>button
+{
+    width: 300px;
+    height: 45px; 
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+.div2
+{
+    display: flex;
+    width:250px ;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.div2>div>img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 35px;
+}
+.div2>h5{
+   
+    margin-right: 10px;
+}
+.div2>p{
+   
+   font-size: 14px;
+}
+.div3
+{
+    text-align: center;
+    display: flex;
+    font-size: 13px;
+    margin-left: 29%;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.div3>div
+{
+    margin: 15px;
+}
+.div3>div:hover
+{
+ text-decoration: underline;
+}
+.div4
+{
+    text-align: center;
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 39%;
+}
+.div4>div
+{
+    margin-right: 15px;
+}
+.div4>div:hover
+{
+ text-decoration: underline;
+}
+.div5
+{
+    text-align: center;
+    display: flex;
+    margin-left: 39%;
+    margin-top: 30px;
+}
+.div5>div>img
+{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+.div6
+{
+    margin-left: 34.5%;
+    margin-top: 50px;
+    font-size: 12px;
+    color: gray;
+}
