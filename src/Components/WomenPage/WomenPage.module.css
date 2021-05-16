@@ -1,0 +1,249 @@
+.top {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/she/mayo/she_landing_newnow_1005_v3.jpg?imwidth=1349&imdensity=1");
+  width: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.top:hover {
+  cursor: pointer;
+}
+.top > h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 400;
+  padding-top: 10%;
+}
+.top > p {
+  color: white;
+}
+.top > button {
+  margin-top: 5%;
+  height: 40px;
+  padding: 10px 20px;
+  border: none;
+}
+.top > button:hover {
+  background-color: gray;
+}
+
+.shirt {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/she/mayo/keytrends_0705.jpg?imwidth=683&imdensity=1");
+  width: 33%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+.shirt1 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/she/mayo/she_accesoriosedition_300521.jpg?imwidth=683&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.shirt2 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/she/mayo/bano_0705.jpg?imwidth=683&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.shirt:hover,
+.shirt1:hover,
+.shirt2:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}
+.shirt2 > h1,
+.shirt1 > h1,
+.shirt > h1 {
+  color: white;
+  font-size: 35px;
+  padding-top: 70%;
+  margin-left: 8%;
+  font-weight: 500;
+}
+.shirt2 > button,
+.shirt1 > button,
+.shirt > button {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  background: unset;
+  color: white;
+  margin-left: 7%;
+}
+.womenlinen {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/she/mayo/she_lino_300521.jpg?imwidth=683&imdensity=1");
+  width: 33%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+.womenlinen1 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/she/mayo/she_exclusivonline_300521.jpg?imwidth=683&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.womenlinen2 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/mm/abril/mm_landing_sostenibilidad_1904.jpg?imwidth=683&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.womenlinen:hover,
+.womenlinen1:hover,
+.womenlinen2:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}
+
+.womenlinen1 > h1,
+.womenlinen > h1 {
+  color: white;
+  font-size: 35px;
+  padding-top: 70%;
+  margin-left: 8%;
+  font-weight: 500;
+}
+.womenlinen2 > h1 {
+  color: white;
+  font-size: 50px;
+  padding-top: 10%;
+  margin-left: 8%;
+  font-weight: 500;
+}
+
+.womenlinen2 > p {
+  margin-left: 8%;
+  font-size: 25px;
+  color: white;
+}
+.womenlinen2 > button,
+.womenlinen1 > button,
+.womenlinen > button {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  background: unset;
+  color: white;
+  margin-left: 7%;
+}
+
+.dress {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/she/mayo/she_vestidos_0705.jpg?imwidth=674&imdensity=1");
+  width: 33%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+.dress1 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/she/mayo/she_shorts_0705.jpg?imwidth=674&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.dress2 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/she/mayo/she_bolsos_0705.jpg?imwidth=674&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.dress:hover,
+.dress1:hover,
+.dress2:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}
+.dress2 > h1,
+.dress1 > h1,
+.dress > h1 {
+  color: white;
+  font-size: 35px;
+  padding-top: 70%;
+  margin-left: 8%;
+  font-weight: 500;
+}
+.dress2 > button,
+.dress1 > button,
+.dress > button {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  background: unset;
+  color: white;
+  margin-left: 7%;
+}
+.mangogirls {
+  font-size: 50px;
+  text-align: center;
+  margin: 50px 0px;
+}
+.girls {
+  background-image: url("https://staticpages.mngbcn.com/mangogirls/images/220/viki_1.jpg?imwidth=337&imdensity=1");
+  width: 23%;
+  height: 370px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3.5%;
+}
+.girls1 {
+  background-image: url("https://staticpages.mngbcn.com/mangogirls/images/219/laurenxmango-feb-12.jpg?imwidth=337&imdensity=1");
+  width: 23%;
+  height: 370px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 8px;
+}
+.girls2 {
+  background-image: url("https://staticpages.mngbcn.com/mangogirls/images/209/image00001.jpeg?imwidth=337&imdensity=1");
+  width: 23%;
+  height: 370px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 8px;
+}
+.girls3 {
+  background-image: url("https://staticpages.mngbcn.com/mangogirls/images/207/dscf9490.jpg?imwidth=337&imdensity=1");
+  width: 23%;
+  height: 370px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 8px;
+}
+.btn > button {
+  height: 50px;
+  background: black;
+  color: white;
+  padding: 0px 20px;
+  margin: 50px;
+  border: none;
+}
+.btn {
+  text-align: center;
+}
+.btn > button:hover {
+  background: rgb(46, 45, 45);
+  cursor: pointer;
+}
