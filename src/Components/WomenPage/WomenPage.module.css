@@ -247,3 +247,8 @@
   background: rgb(46, 45, 45);
   cursor: pointer;
 }
+.option
+{
+  text-align: center;
+  font-size: 30px;
+}

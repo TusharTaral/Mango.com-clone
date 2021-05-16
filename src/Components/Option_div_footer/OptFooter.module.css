@@ -1,0 +1,81 @@
+.flex{
+    display: flex;
+}
+.div
+{
+    margin: 20px;
+}
+
+.div>p
+{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px
+}
+.div1
+{
+    margin-left: 5%;
+    margin-right: 10%;
+    cursor: pointer;
+}
+.div1>p
+{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.div1>div
+{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.div1>div:hover
+{
+    text-decoration: underline;
+    color: rgb(177, 174, 174);
+}
+.div2
+{
+    margin-left: 5%;
+    margin-right: 10%;
+    /* display:none; 
+} */
+}
+.div2>div:hover
+{
+    text-decoration: underline;
+    color: rgb(177, 174, 174);
+}
+.div3>div:hover
+{
+    text-decoration: underline;
+    color: rgb(177, 174, 174);
+}
+.div2>p
+{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.div2>div
+{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 10px;
+}
+/* .div3
+{
+    display:none;
+} */
+.div3>div
+{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 10px;
+    margin-left: 120px;
+}
+@media (min-width: 480px)
+{
+  
+}

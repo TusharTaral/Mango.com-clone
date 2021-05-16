@@ -1,8 +1,12 @@
 import React from "react";
 import styled from "./MenPage.module.css";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
+import OptFooter from "../Option_div_footer/OptFooter";
 export default function MenPage() {
   return (
     <div>
+      <Navbar/>
       <div className={styled.top}>
         <h1>PREMIUM CAPSULE</h1>
         <p>
@@ -54,6 +58,8 @@ export default function MenPage() {
           <button>Discover more</button>
         </div>
       </div>
+      <OptFooter/>
+      <Footer/>
     </div>
   );
 }

@@ -1,8 +1,12 @@
 import React from "react";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
+import OptFooter from "../Option_div_footer/OptFooter";
 import styled from "./WomenPage.module.css";
 export default function WomenPage() {
   return (
     <div>
+      <Navbar/>
       <div className={styled.top}>
         <h1>LIVING BLUE</h1>
 
@@ -76,6 +80,8 @@ export default function WomenPage() {
       <div className={styled.btn}>
         <button>Discover more</button>
       </div>
+      <OptFooter/>
+      <Footer/>
     </div>
   );
 }
