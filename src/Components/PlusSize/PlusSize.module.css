@@ -1,7 +1,7 @@
 .top {
-  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/he/mayo/he_landing_newnow_1005_v5.jpg");
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/violeta/abril/violeta_landing_bano_0421_v2.jpg");
   width: 100%;
-  height: 450px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -12,8 +12,8 @@
 .top > h1 {
   color: white;
   font-size: 55px;
-  padding-top: 10%;
   font-weight: 400;
+  padding-top: 20%;
 }
 .top > p {
   color: white;
@@ -28,17 +28,18 @@
   background-color: gray;
 }
 .leisure {
-  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/he/marzo/he_leisure_220321.jpg");
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/violeta/mayo/violeta_landing_newnow_120521.jpg?imwidth=683&imdensity=1");
   width: 30%;
   height: 500px;
   margin-right: 3px;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
+  text-align: left;
 }
 .leisure > h1 {
   color: white;
   font-size: 35px;
+  margin-left: 10%;
   padding-top: 78%;
 }
 .leisure > button {
@@ -46,11 +47,12 @@
   height: 40px;
   padding: 10px;
   border: none;
+  margin-left: 10%;
   background: unset;
   color: white;
 }
 .linen {
-  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/he/abril/he_linen_0421.jpg");
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/violeta/abril/violeta_denim_2304.jpg?imwidth=901&imdensity=1");
   width: 70%;
   height: 500px;
   background-repeat: no-repeat;
@@ -87,7 +89,7 @@
 .planet > h1 {
   color: white;
   font-size: 55px;
-  line-height: 1.5cm;
+  line-height: 1.3cm;
   margin-left: 7%;
   padding-top: 3%;
 }
@@ -111,7 +113,7 @@
   filter: brightness(75%);
 }
 .planet1 {
-  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/he/marzo/he_performance_0321_v2.jpg");
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/violeta/marzo/violeta_activewear_0321.jpg?imwidth=901&imdensity=1");
   width: 33%;
   height: 500px;
   margin-left: 3px;
@@ -133,7 +135,7 @@
   color: white;
 }
 .shirt {
-  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/he/abril/he_sobrecamisas_2304.jpg");
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/violeta/abril/violeta_camisetas_2304.jpg?imwidth=674&imdensity=1");
   width: 33%;
   height: 500px;
   background-repeat: no-repeat;
@@ -141,7 +143,7 @@
   text-align: left;
 }
 .shirt1 {
-  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/he/abril/he_camisas_2304.jpg?imwidth=674&imdensity=1");
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/violeta/abril/violeta_jeans_2304.jpg?imwidth=674&imdensity=1");
   width: 33.3%;
   height: 500px;
   background-repeat: no-repeat;
@@ -150,7 +152,7 @@
   text-align: left;
 }
 .shirt2 {
-  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/he/abril/he_pantalones_2304.jpg?imwidth=674&imdensity=1");
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/violeta/abril/violeta_vestidos_2304.jpg?imwidth=674&imdensity=1");
   width: 33.3%;
   height: 500px;
   background-repeat: no-repeat;
@@ -168,10 +170,10 @@
 .shirt1 > h1,
 .shirt > h1 {
   color: white;
-  font-size: 35px;
+  font-size: 40px;
   padding-top: 70%;
   margin-left: 8%;
-  font-weight: 500;
+  font-weight: 400;
 }
 .shirt2 > button,
 .shirt1 > button,

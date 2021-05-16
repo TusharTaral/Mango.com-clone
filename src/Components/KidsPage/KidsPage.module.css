@@ -1,0 +1,322 @@
+.top {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/kids/mayo/landing_teen_turtle.jpg?imwidth=1349&imdensity=1");
+  width: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.top:hover {
+  cursor: pointer;
+}
+.top > h1 {
+  color: white;
+  font-size: 55px;
+  font-weight: 400;
+  padding-top: 10%;
+}
+
+.top > button {
+  height: 40px;
+  padding: 10px;
+  border: none;
+}
+.top > button:hover {
+  background-color: gray;
+}
+.leisure {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/kids/mayo/kids_landing_newnow_1005.jpg?imwidth=683&imdensity=1");
+  width: 30%;
+  height: 500px;
+  margin-right: 3px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+.leisure > h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 70%;
+  margin-left: 8%;
+}
+.leisure > button {
+  margin-top: 0%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  background: unset;
+  color: white;
+  margin-left: 8%;
+}
+.linen {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/kids/abril/kids_landing_beachwear_mobile_1304.jpg?imwidth=901&imdensity=1");
+  width: 70%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+.linen > h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 7%;
+  padding-top: 30%;
+}
+.linen > button {
+  height: 40px;
+  padding: 10px;
+  margin-left: 7%;
+  border: none;
+  background: unset;
+  color: white;
+}
+.linen:hover,
+.leisure:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}
+/* }
+.planet {
+  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/mm/abril/mm_landing_sostenibilidad_1904.jpg");
+  width: 66.5%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+.planet > h1 {
+  color: white;
+  font-size: 55px;
+  margin-left: 7%;
+  padding-top: 3%;
+}
+.planet > p {
+  color: white;
+  font-size: 25px;
+  margin-left: 7%;
+}
+.planet > button {
+  height: 40px;
+  padding: 10px;
+  margin-left: 7%;
+  margin-top: 1%;
+  border: none;
+  background: unset;
+  color: white;
+}
+.planet:hover,
+.planet1:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}
+.planet1 {
+  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/he/marzo/he_performance_0321_v2.jpg");
+  width: 33%;
+  height: 500px;
+  margin-left: 3px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.planet1 > h1 {
+  color: white;
+  font-size: 35px;
+  padding-top: 70%;
+}
+.planet1 > button {
+  margin-top: 0%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  background: unset;
+  color: white;
+} */
+.shirt {
+  background-image: url("http://staticpages.mngbcn.com/homes/images/ss21/mm/abril/mm_landing_sostenibilidad_1904.jpg");
+  width: 33%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+.shirt > h1 {
+  color: white;
+  font-size: 45px;
+  margin-left: 7%;
+}
+.shirt > p {
+  color: white;
+  font-size: 25px;
+  margin-left: 7%;
+}
+.shirt > button {
+  height: 40px;
+  padding: 10px;
+  margin-left: 7%;
+  margin-top: 30%;
+  border: none;
+  background: unset;
+  color: white;
+}
+.shirt1 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/kids/abril/kids_camisetas-nina_0305.jpg?imwidth=683&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.shirt2 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/kids/abril/kids_camisetas-nino_0305.jpg?imwidth=683&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.shirt:hover,
+.shirt1:hover,
+.shirt2:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}
+.shirt2 > h1,
+.shirt1 > h1 {
+  color: white;
+  font-size: 35px;
+  padding-top: 70%;
+  margin-left: 8%;
+  font-weight: 500;
+}
+.shirt2 > button,
+.shirt1 > button,
+.shirt > button {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  background: unset;
+  color: white;
+  margin-left: 7%;
+}
+
+.boy {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/kids/abril/kids_nina_0305.jpg?imwidth=683&imdensity=1");
+  width: 33%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+.boy1 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/kids/abril/kids_nino_0305.jpg?imwidth=683&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.boy2 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/kids/abril/kids_teena_0305.jpg?imwidth=683&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.boy:hover,
+.boy1:hover,
+.boy2:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}
+.boy2 > h1,
+.boy1 > h1,
+.boy > h1 {
+  color: white;
+  font-size: 35px;
+  padding-top: 60%;
+  margin-left: 8%;
+  font-weight: 500;
+}
+.boy2 > p,
+.boy1 > p,
+.boy > p {
+  color: white;
+  font-size: 20px;
+  margin-left: 8%;
+}
+.boy2 > button,
+.boy1 > button,
+.boy > button {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  background: unset;
+  color: white;
+  margin-left: 7%;
+}
+
+.babyboy {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/kids/abril/kids_bebenina_0305.jpg?imwidth=683&imdensity=1");
+  width: 33%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+.babyboy1 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/kids/abril/kids_bebenino_0305.jpg?imwidth=683&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.babyboy2 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/kids/abril/kids_newborn.jpg?imwidth=683&imdensity=1");
+  width: 33.3%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3px;
+  text-align: left;
+}
+.babyboy:hover,
+.babyboy1:hover,
+.babyboy2:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}
+.babyboy2 > h1,
+.babyboy1 > h1,
+.babyboy > h1 {
+  color: white;
+  font-size: 35px;
+  padding-top: 60%;
+  margin-left: 8%;
+  font-weight: 500;
+}
+.babyboy2 > p,
+.babyboy1 > p,
+.babyboy > p {
+  color: white;
+  font-size: 20px;
+  margin-left: 8%;
+}
+.babyboy2 > button,
+.babyboy1 > button,
+.babyboy > button {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  background: unset;
+  color: white;
+  margin-left: 7%;
+}
