@@ -320,3 +320,49 @@
   color: white;
   margin-left: 7%;
 }
+.otherline {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/she/febrero/she_landing_sustainable-1502.jpg?imwidth=674&imdensity=1");
+  width: 33.3%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 3px;
+  text-align: center;
+}
+.otherline1 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/mm/febrero/mm_he_landing_sustainable-1502.jpg?imwidth=674&imdensity=1");
+  width: 33.3%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 3px;
+  text-align: center;
+}
+.otherline2 {
+  background-image: url("//staticpages.mngbcn.com/homes/images/fw20/mm/diciembre/mm_selector_line_violeta_1220.jpg?imwidth=674&imdensity=1");
+  width: 33.3%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 3px;
+  text-align: center;
+}
+.btn1 {
+  height: 40px;
+  width: 100px;
+  padding: 0px 10px;
+  border: none;
+  margin-top: 70%;
+}
+.btn1:hover {
+  background: rgb(143, 139, 139);
+}
+.otherline:hover,
+.otherline1:hover,
+.otherline2:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}
