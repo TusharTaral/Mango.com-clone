@@ -6,6 +6,7 @@ import SelectOption from './Components/Option_page/SelectOption';
 import Footer from './Components/Footer/Footer';
 import WomenPage from './Components/WomenPage/WomenPage';
 import MenPage from './Components/MenPage/MenPage';
+import { Prac } from './Components/Prac/Prac';
 
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
         {/* <FrontPage/> */}
         {/* <SelectOption/> */}
         {/* <Footer/> */}
-        <WomenPage/>
+        {/* <WomenPage/> */}
         {/* <MenPage/> */}
+        <Prac/>
     </div>
   );
 }

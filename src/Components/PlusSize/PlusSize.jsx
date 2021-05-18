@@ -1,14 +1,10 @@
 import React from "react";
-import styled from "./MenPage.module.css";
-import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/Navbar";
-import OptFooter from "../Option_div_footer/OptFooter";
-export default function MenPage() {
+import styled from "./PlusSize.module.css";
+export default function PlusSize() {
   return (
     <div>
-      <Navbar/>
       <div className={styled.top}>
-        <h1>PREMIUM CAPSULE</h1>
+        <h1>The (Perfect) Beach Day</h1>
         <p>
           This collection connects the quality of Japan with the essence of the
           Mediterranean
@@ -18,11 +14,11 @@ export default function MenPage() {
       </div>
       <div style={{ display: "flex", margin: "3px 0px" }}>
         <div className={styled.leisure}>
-          <h1>Leisure Collection</h1>
+          <h1>New in</h1>
           <button>Discover more</button>
         </div>
         <div className={styled.linen}>
-          <h1>Linen Collection</h1>
+          <h1>Denim</h1>
           <button>Discover more</button>
         </div>
       </div>
@@ -40,25 +36,24 @@ export default function MenPage() {
           <button>Discover more</button>
         </div>
         <div className={styled.planet1}>
-          <h1>Linen Collection</h1>
+          <h1>Activewear</h1>
           <button>Discover more</button>
         </div>
       </div>
       <div style={{ display: "flex", margin: "3px 0px" }}>
         <div className={styled.shirt}>
-          <h1>Overshirts</h1>
+          <h1>T-shirt and tops</h1>
           <button>Discover more</button>
         </div>
         <div className={styled.shirt1}>
-          <h1>Shirts</h1>
+          <h1>Jeans</h1>
           <button>Discover more</button>
         </div>
         <div className={styled.shirt2}>
-          <h1>Trousers</h1>
+          <h1>Dresses and jumpsuits</h1>
           <button>Discover more</button>
         </div>
       </div>
-    
       <div style={{ textAlign: "center" }}>
         <h1 style={{ margin: "50px ", fontWeight: "400" }}>Our Other Lines</h1>
       </div>
@@ -70,11 +65,9 @@ export default function MenPage() {
           <button className={styled.btn1}>Kids</button>
         </div>
         <div className={styled.otherline2}>
-          <button className={styled.btn1}>Plus size</button>
+          <button className={styled.btn1}>Men</button>
         </div>
       </div>
-      <OptFooter/>
-      <Footer/>
     </div>
   );
 }
