@@ -1,0 +1,72 @@
+.flex {
+  display: flex;
+}
+.div {
+  margin: 20px;
+  height: 270px;
+  transition: 2s;
+  overflow: hidden;
+}
+.div:hover {
+  overflow: visible;
+  height: 500px;
+  transition: 2s;
+}
+
+.div > p {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.div1 {
+  margin-left: 5%;
+  margin-right: 10%;
+  cursor: pointer;
+}
+.div1 > p {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 30px;
+}
+.div1 > div {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 10px;
+}
+.div1 > div:hover {
+  text-decoration: underline;
+  color: rgb(177, 174, 174);
+}
+.div2 {
+  margin-left: 5%;
+  margin-right: 10%;
+}
+.div2 > div:hover {
+  text-decoration: underline;
+  color: rgb(177, 174, 174);
+}
+.div3 > div:hover {
+  text-decoration: underline;
+  color: rgb(177, 174, 174);
+}
+.div2 > p {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 30px;
+}
+.div2 > div {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.div3 > div {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 10px;
+  margin-left: 120px;
+}
+/* .div:hover
+{
+  display: unset;
+} */

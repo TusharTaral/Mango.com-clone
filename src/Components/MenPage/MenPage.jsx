@@ -1,8 +1,12 @@
 import React from "react";
 import styled from "./MenPage.module.css";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
+import OptFooter from "../Option_div_footer/OptFooter";
 export default function MenPage() {
   return (
     <div>
+      <Navbar/>
       <div className={styled.top}>
         <h1>PREMIUM CAPSULE</h1>
         <p>
@@ -54,6 +58,7 @@ export default function MenPage() {
           <button>Discover more</button>
         </div>
       </div>
+    
       <div style={{ textAlign: "center" }}>
         <h1 style={{ margin: "50px ", fontWeight: "400" }}>Our Other Lines</h1>
       </div>
@@ -68,6 +73,8 @@ export default function MenPage() {
           <button className={styled.btn1}>Plus size</button>
         </div>
       </div>
+      <OptFooter/>
+      <Footer/>
     </div>
   );
 }
