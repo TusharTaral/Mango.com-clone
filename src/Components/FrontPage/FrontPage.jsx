@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link, Redirect } from 'react-router-dom'
 import styled from "./FrontPage.module.css"
 const FrontPage = () => {
+
     return (
         <div className={styled.div}>
             <div className={styled.div1}>
@@ -12,7 +14,7 @@ const FrontPage = () => {
                  <button style={{marginTop:"50px"}}>
                      <img className={styled.img1} src="https://image.flaticon.com/icons/png/128/3033/3033144.png" alt=""/>
                      India</button>
-                 <button>ENTER</button>
+                <Link to="/select"> <button className={styled.btn}>ENTER</button> </Link>
             </div>
             
         </div>

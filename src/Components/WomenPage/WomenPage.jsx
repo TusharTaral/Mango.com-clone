@@ -95,6 +95,7 @@ export default function WomenPage() {
           <button className={styled.btn1}>Plus size</button>
         </div>
       </div>
+      <p className={styled.footer}>Women</p>
       <OptFooter/>
       <Footer/>
     </div>

@@ -4,7 +4,7 @@ const OptFooter = () => {
   return (
     <div>
       <div className={styled.div}>
-         <p>Women</p>
+         
          <div className={styled.flex}>
              <div className={styled.div1}>
                  <p>CLOTHING</p>
@@ -31,11 +31,20 @@ const OptFooter = () => {
                  <div>Underwear</div>
                  <div>Pajamas</div>
                  <div>Pants</div>
+                 <div>Polo shirt</div>
+                 <div>Over-shirt</div>
+                 <div>Blazer</div>
+                 <div>Swim-wear</div>
+                 <div>Bermuda</div>
              </div>
              <div className={styled.div3}>
                  <div>Hat</div>
                  <div>Facemask</div>
                  <div>Cases</div>
+                 <div>Backpacks</div>
+                 <div>Sunglass</div>
+                 <div>Bracelets</div>
+                 <div>Tie</div>
              </div>
          </div>
       </div>

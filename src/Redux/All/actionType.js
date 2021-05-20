@@ -1,0 +1,1 @@
+export const GETDATA_SUCCESS = "GETDATA_SUCCESS";
