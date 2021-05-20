@@ -73,6 +73,7 @@ export default function MenPage() {
           <button className={styled.btn1}>Plus size</button>
         </div>
       </div>
+      <p className={styled.footer}>Men</p>
       <OptFooter/>
       <Footer/>
     </div>

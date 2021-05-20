@@ -1,8 +1,13 @@
 import React from "react";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
+import OptFooter from "../Option_div_footer/OptFooter";
+import SelectOption from "../Option_page/SelectOption";
 import styled from "./PlusSize.module.css";
 export default function PlusSize() {
   return (
     <div>
+      <Navbar/>
       <div className={styled.top}>
         <h1>The (Perfect) Beach Day</h1>
         <p>
@@ -68,6 +73,9 @@ export default function PlusSize() {
           <button className={styled.btn1}>Men</button>
         </div>
       </div>
+      <p className={styled.footer}>PlusSize</p>
+    <OptFooter/>
+      <Footer/>
     </div>
   );
 }

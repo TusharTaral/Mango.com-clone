@@ -48,6 +48,17 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
+.btn
+{
+    width: 350px;
+    border: 1px solid white;
+    height: 50px;
+    background: none;
+    color: white;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
 .img1
 {
     -webkit-filter: grayscale(1) invert(1);

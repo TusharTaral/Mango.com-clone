@@ -9,12 +9,10 @@ export const getdataSuccess = (payload) => {
 };
 
 export const getData = (payload) => (dispatch) => {
+    console.log(payload)
   const requestParam = {
-    url: "https://json-server27.herokuapp.com/women",
-    method: "get",
-    param:{
-      q:payload
-    }
+    url: `https://json-server27.herokuapp.com/mango?q=${payload}`,
+    method: "get"
   };
   axios(requestParam).then((response) =>
     dispatch(getdataSuccess(response.data))

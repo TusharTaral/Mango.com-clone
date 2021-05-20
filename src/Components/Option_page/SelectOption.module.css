@@ -9,7 +9,7 @@
     background-position-x: 50%;
     background-image: url("https://staticpages.mngbcn.com/homes/images/ss21/she/febrero/she_landing_sustainable-1502.jpg?imwidth=591&imdensity=2");
 }
-.img1>button
+.btn1
 {
     width: 120px;
     margin-left: 40%;
@@ -17,7 +17,7 @@
     height: 50px;
     padding: 5px;
 }
-.img2>button
+.btn2
 {
     width: 120px;
     margin-left: 40%;
@@ -25,7 +25,7 @@
     height: 50px;
     padding: 5px;
 }
-.img4>button
+.btn4
 {
     width: 120px;
     margin-left: 45%;
@@ -33,7 +33,7 @@
     height: 50px;
     padding: 5px;
 }
-.img5>button
+.btn5
 {
     width: 120px;
     margin-left: 45%;
