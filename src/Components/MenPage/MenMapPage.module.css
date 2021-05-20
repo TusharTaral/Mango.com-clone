@@ -1,5 +1,8 @@
+.main {
+  margin-left: 20%;
+}
+
 .url {
-  width: 33.3%;
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,22 +10,26 @@
   text-align: center;
 }
 .map {
-  width: 80%;
-
+  float: left;
+  width: 35%;
+  margin-left: 10px;
   margin-bottom: 50px;
 }
 .inlineText {
   position: absolute;
   margin-top: 27%;
-  height: 95px;
-  width: 26.8%;
-  background-color: rgba(255, 255, 255, 0.986);
-  /* visibility: hidden; */
+  height: 96px;
+  width: 27.8%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: none;
+  /* transition: all 1s linear; */
+  /* animation: fade-in 1s;
+  transition: display 2s ease-in-out; */
+  /* transition: opacity 1s ease-out; */
+  /* transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955); */
 }
-.inlineText:hover {
-  visibility: hidden;
-}
-.flex {
-  display: flex;
-  flex-wrap: wrap;
+.url:hover .inlineText {
+  display: block;
+  /* transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+  /* animation: fade-out 1s; */
 }
