@@ -1,8 +1,13 @@
 import React from "react";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
+import OptFooter from "../Option_div_footer/OptFooter";
+// import SelectOption from "../Option_page/SelectOption";
 import styled from "./KidsPage.module.css";
 export default function KidsPage() {
   return (
     <div>
+      <Navbar />
       <div className={styled.top}>
         <h1>
           ANOTHER SUMMER <br /> TO ENJOY
@@ -92,6 +97,9 @@ export default function KidsPage() {
           <button className={styled.btn1}>Plus size</button>
         </div>
       </div>
+      <p className={styled.footer}>Kids</p>
+      <OptFooter />
+      <Footer />
     </div>
   );
 }

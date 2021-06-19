@@ -6,11 +6,20 @@ import styled from "./WomenPage.module.css";
 export default function WomenPage() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <div className={styled.top}>
-        <h1>LIVING BLUE</h1>
-
-        <button> Discover more </button>
+        <video className={styled.video} autoPlay loop muted>
+          <source
+            src="http://staticpages.mngbcn.com/homes/images/ss21/she/mayo/cover_5s_desktop_landing_v2.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <h1 className={styled.h1cont}>CHUFY x MANGO</h1>
+        {/* <h3 className={styled.h1cont}>
+          Boho dresses to carry the Mediterranean <br /> summer with you.
+        </h3> */}
+        <button className={styled.disBtn}> Discover more </button>
       </div>
       <div style={{ display: "flex", margin: "3px 0px" }}>
         <div className={styled.shirt}>
@@ -80,7 +89,7 @@ export default function WomenPage() {
       <div className={styled.btn}>
         <button>Discover more</button>
       </div>
-      
+
       <div style={{ textAlign: "center" }}>
         <h1 style={{ margin: "50px ", fontWeight: "400" }}>Our Other Lines</h1>
       </div>
@@ -95,8 +104,9 @@ export default function WomenPage() {
           <button className={styled.btn1}>Plus size</button>
         </div>
       </div>
-      <OptFooter/>
-      <Footer/>
+      <p className={styled.footer}>Women</p>
+      <OptFooter />
+      <Footer />
     </div>
   );
 }

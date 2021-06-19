@@ -1,10 +1,32 @@
 .top {
-  background-image: url("//staticpages.mngbcn.com/homes/images/ss21/she/mayo/she_landing_newnow_1005_v3.jpg?imwidth=1349&imdensity=1");
-  width: 100%;
+  /* background-image: url("//staticpages.mngbcn.com/homes/images/ss21/she/mayo/she_landing_newnow_1005_v3.jpg?imwidth=1349&imdensity=1"); */
+  /* width: 100%;
   height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
+  text-align: center; */
+  margin-bottom: 25%;
+}
+.h1cont {
+  position: relative;
+  margin-left: 30%;
+}
+.disBtn {
+  position: relative;
+  margin-left: 45%;
+}
+.video {
+  position: absolute;
+  min-width: 100%;
+  height: 100%;
+  /* top: 0px;
+  left: 0px;
+  width: 1349px;
+  height: 758.812px;
+  position: relative; */
+  /* height: 450px; */
+
+  /* margin-bottom: auto; */
 }
 .top:hover {
   cursor: pointer;
@@ -293,4 +315,10 @@
 .otherline2:hover {
   cursor: pointer;
   filter: brightness(75%);
+}
+.footer {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 60px;
 }
