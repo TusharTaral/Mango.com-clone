@@ -3,6 +3,7 @@ import { shallowEqual, useDispatch, useSelector } from "react-redux";
 import { getData } from "../../Redux/All/action";
 import PermIdentityIcon from "@material-ui/icons/PermIdentity";
 import styled from "./Navbar.module.css";
+import { TextField } from "@material-ui/core";
 const Navbar = () => {
   const { dataall } = useSelector((state) => state.all, shallowEqual);
   const dispatch = useDispatch();
@@ -37,8 +38,8 @@ const Navbar = () => {
       <div className={styled.div}>
         <div>Plus Size</div>
       </div>
-      <div>
-        <input
+      <div className={styled.inp}>
+        <TextField
           className={styled.inp}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
@@ -73,7 +74,7 @@ const Navbar = () => {
           src="https://image.flaticon.com/icons/png/128/590/590506.png"
           alt="search icon"
         />
-        <p>Shopping Bag</p>
+        <p> Bag</p>
       </div>
     </div>
   );

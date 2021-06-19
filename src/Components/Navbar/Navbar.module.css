@@ -12,6 +12,7 @@
 }
 .div {
   height: 100%;
+  /* margin-top: 10px; */
   margin-right: 10px;
 }
 .div > div {
@@ -46,10 +47,11 @@
   text-align: left;
 }
 .inp {
-  width: 12rem;
+  width: 15rem;
+  margin-top: 20px;
   outline: none;
   padding-left: 10px;
-  margin-top: 20px;
-  margin-left: 10rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
   height: 35px;
 }
