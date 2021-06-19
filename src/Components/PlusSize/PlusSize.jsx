@@ -2,12 +2,12 @@ import React from "react";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import OptFooter from "../Option_div_footer/OptFooter";
-import SelectOption from "../Option_page/SelectOption";
+// import SelectOption from "../Option_page/SelectOption";
 import styled from "./PlusSize.module.css";
 export default function PlusSize() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <div className={styled.top}>
         <h1>The (Perfect) Beach Day</h1>
         <p>
@@ -74,8 +74,8 @@ export default function PlusSize() {
         </div>
       </div>
       <p className={styled.footer}>PlusSize</p>
-    <OptFooter/>
-      <Footer/>
+      <OptFooter />
+      <Footer />
     </div>
   );
 }

@@ -2,12 +2,12 @@ import React from "react";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import OptFooter from "../Option_div_footer/OptFooter";
-import SelectOption from "../Option_page/SelectOption";
+// import SelectOption from "../Option_page/SelectOption";
 import styled from "./KidsPage.module.css";
 export default function KidsPage() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <div className={styled.top}>
         <h1>
           ANOTHER SUMMER <br /> TO ENJOY
@@ -98,8 +98,8 @@ export default function KidsPage() {
         </div>
       </div>
       <p className={styled.footer}>Kids</p>
-      <OptFooter/>
-      <Footer/>
+      <OptFooter />
+      <Footer />
     </div>
   );
 }
